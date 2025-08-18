@@ -1,4 +1,4 @@
-// Mostra o ano atual no rodapé
+// Mostra o ano atual no rodapé 2
 const yearEl = document.getElementById('year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
