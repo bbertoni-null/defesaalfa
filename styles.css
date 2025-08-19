@@ -330,3 +330,41 @@ main {
   text-align: center;
   color: var(--muted);
 }
+/* Novo estilo para a seção de contato com ícones */
+.contact__socials {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+.contact__socials a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.contact__socials a:hover {
+  color: var(--brand);
+}
+.contact__socials img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 0; /* Remove a borda arredondada das imagens */
+}
+.contact__message {
+  color: var(--muted);
+  font-style: italic;
+  margin: 2rem 0 1rem;
+}
+
+@media (min-width: 600px) {
+  .contact__socials {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
