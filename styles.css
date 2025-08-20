@@ -614,3 +614,18 @@ h4 {
     color: var(--text);
   }
 }
+.grecaptcha-badge {
+    visibility: hidden;
+}
+.recaptcha-disclaimer {
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-align: center;
+    margin-top: 1.5rem;
+    line-height: 1.4;
+}
+
+.recaptcha-disclaimer a {
+  color: var(--muted);
+  text-decoration: underline;
+}
